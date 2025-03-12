@@ -1,0 +1,468 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #008ECC;
+}
+
+.login-container {
+    display: flex;
+    width: 900px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-image {
+    width: 80%;
+}
+
+.login-image img {
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: -15%;
+}
+
+.logo-login img{ 
+    width:100%;
+}
+
+.login-form {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: #004E75;
+}
+
+.login-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    color: #004E75;
+}
+
+.logo img {
+    width: 80px;
+    margin-bottom: -10px;
+}
+
+.logo img[src="logo codecamp.png"] {
+    width:200px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #004E75;
+    text-align: center;
+    align-items: center;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.input-group {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #004E75;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;  
+    border: 1px solid #008ECC;
+    border-radius: 5px;
+    font-size: 16px;  
+    box-sizing: border-box; 
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #008ECC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #006699;
+}
+
+a {
+    color: #008ECC;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1280px) { 
+    .login-container {
+        display: flex;
+        align-items: center;
+        width: 60%;
+        height: 80%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .logo-login img { 
+        width: 70%;
+    }
+
+    .login-image{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .login-form{ 
+        width: 100%;
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 0px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .logo-login img[src="logo codecamp.png"] {
+        width:150px;
+    }
+
+
+    .login-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .login-form h2{
+        font-size: 18px;
+        margin-bottom: -3px;
+    }
+
+    .login-form p{ 
+        font-size: 10px;
+    }
+
+    .login-form a { 
+        font-size: 10px;
+    }
+
+    .login-form {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 0px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-form input {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        margin-bottom: 1px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .login-form button {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        background-color: #008ECC;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .login-form button:hover {
+        background-color: #006699;
+    }
+}
+
+@media (max-width: 480px) { 
+    .login-image {
+        display: none;
+    }
+}
+
+
+
+
+
+.register-container {
+    display: flex;
+    width: 900px;
+    height: 650px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.register-image {
+    width: 80%;
+}
+
+.register-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.register-form {
+    width: 55%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: #004E75;
+    margin: 0 auto; 
+    box-sizing: border-box; 
+}
+
+.register-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #004E75;
+}
+
+.register-form p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #004E75;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #008ECC;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #008ECC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #006699;
+}
+
+@media (max-width: 1280px){ 
+
+    .register-container {
+        width: 60%; 
+        height: 90%; 
+        margin: 200px ;
+    }
+    
+    .register-image {
+        width: 100%;
+        height: 100%; 
+        margin-bottom: 20px;  
+    }
+
+    .logo img[src="logo codecamp.png"] {
+        width:100px;
+    }
+
+    .register-form h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #004E75;
+    }
+
+    .register-form p { 
+        font-size: 12px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    /* login disini */
+    .register-form a{ 
+        font-size: 12px;
+        color: #004E75;
+        margin-bottom: 20px;
+    }
+
+    .register-form {
+        width: 100%;
+        padding: 20px;  
+    }
+
+    .input-group input {
+        padding: 3px;  
+        font-size: px;  
+    }
+
+    .input-group label {
+        display: block;
+        margin-bottom: 50px;
+        font-size: 10px;
+        margin-bottom: 5px;
+        color: #004E75;
+    }
+
+    button {
+        width: 100%;
+        padding:    7px;
+        background-color: #008ECC;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Logo code camp */
+    .logo img[src="logo codecamp.png"] {
+        width:80px;
+    }
+
+    /* Keseluruhan  */
+    .register-container {
+        width: 95%;  
+        height: 95%; 
+        margin: 0 auto;  
+    }
+
+    /* gambar kiri */
+    .register-image img {
+        width: 100%;
+        height: 100%; 
+        object-fit: cover;  
+    }
+
+    /* form regis  */
+    .register-form {
+        width: 100%;
+        padding: 20px;  
+    }
+
+    .register-form h2 {
+        font-size: 16px;  
+        margin-bottom: 3px;  
+    }
+
+    .register-form p { 
+        font-size: 10px;
+        color: #666;
+        margin-bottom: 13px;
+    }
+
+    
+    /* login disini */
+    .register-form a{ 
+        font-size: 11 px;
+        color: #004E75;
+    }
+
+    .input-group input {
+        padding: 3px;  
+        font-size: px;  
+    }
+
+    .input-group label {
+        display: block;
+        margin-bottom: 2px;
+        font-size: 10px;
+        color: #004E75;
+    }
+
+    button {
+        padding: 6px;  
+        font-size: 12px;  
+    }
+}
+
+@media (max-width: 480px){
+    
+    .register-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .register-image img {
+        display:none;  
+    }
+
+    .register-form {
+        width: 100%;
+        padding: 0px;  
+    }
+}
