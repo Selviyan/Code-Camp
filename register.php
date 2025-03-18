@@ -41,7 +41,7 @@
                         <input type="password" id="confirm-password" name="confirm-password" required>
                     </div>
                     <button type="submit">Daftar</button>
-                    <p>Sudah punya akun? <a href="login.html">Login di sini</a></p>
+                    <p>Sudah punya akun? <a href="login.php">Login di sini</a></p>
                 </form>
             </div>
         </div>
